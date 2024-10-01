@@ -1,0 +1,49 @@
+body,
+html {
+  width: 100;
+  height: 100;
+  font-family: "Courier New", Courier, monospace;
+  background: url("./images/black\ boy.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+.textcontainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+}
+h1 {
+  font-size: 3rem;
+  color: #e2dbde;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.find {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #f05f44;
+  color: white;
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  border-radius: 6px;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+hr {
+  width: 100px;
+  border: 1px solid #ee4b08;
+  margin: 10px 0;
+}
